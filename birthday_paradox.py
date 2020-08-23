@@ -50,7 +50,6 @@ def same_with_me(total=1000):
             for _ in range(i):
                 if random.randrange(365) == me:
                     same += 1
-                    break
 
         # print i, same, same / float(total)
         ys.append(same / float(total))
